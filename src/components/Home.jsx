@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar1 from './sidebar1'
+import Sidebar1 from './Sidebar1'
 const Home = () => {
   return (
     <div className='min-h-screen'>
