@@ -16,7 +16,7 @@ const Navbar = () => {
       <h4 className='hidden sm:block'>Projects</h4> 
       <FontAwesomeIcon className='block sm:hidden ' icon={faBars}></FontAwesomeIcon>
     </div>          
-    <button className=' hidden sm:block px-10 py-2 bg-pink-700 border-spacing-1 rounded-full text-white hover:bg-pink-800 transition-colors duration-700'>contact me</button>
+    <button className=' hidden sm:block px-10 py-2 bg-pink-700 border-spacing-1 rounded-full text-white hover:bg-pink-800 transition-colors duration-700'>Resume</button>
   </nav>
   <Navbar2/>
   </>

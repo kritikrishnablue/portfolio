@@ -1,19 +1,47 @@
 import React, { useState } from 'react'
+import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 const Contact = () => {
-const[name,setname]=useState('');
-const[email,setemail]=useState('');
-const[message,setmessage]=useState('');
-const submitHandler=(e)=>{
+const [name, setname] = useState('');
+const [email, setemail] = useState('');
+const [message, setmessage] = useState('');
+const [status, setStatus] = useState('');
+
+const submitHandler = (e) => {
   e.preventDefault();
-  console.log('Form submitted');
-  console.log(name);
-  console.log(email);
-  setname('');
-  setemail('');
-  setmessage('');
-}
+
+  // EmailJS parameters
+  const serviceID = 'service_s53qud4';
+  const templateID = 'template_dvogna9';
+  const publicKey = 'C2DUkwzfsvMkc5RMB';
+
+  const templateParams = {
+    from_name: name,
+    from_email: email,
+    message: message,
+  };
+
+  emailjs.send(serviceID, templateID, templateParams, publicKey)
+  .then((response) => {
+    console.log('SUCCESS!', response.status, response.text);
+    setStatus('Message sent successfully!');
+    setname('');
+    setemail('');
+    setmessage('');
+  })
+  .catch((err) => {
+    console.log('FAILED...', err);
+    setStatus('Failed to send message.');
+  });
+    console.log('Form submitted');
+console.log(name);
+ console.log(email);
+ setname('');
+ setemail('');
+ setmessage('');
+};
+
   return (
     <div className='flex flex-col items-center bg-gray-100'>
       <h1 className='text-black text-2xl sm:text-4xl font-bold '>CONTACT</h1>
