@@ -20,7 +20,7 @@ const About = () => {
         <div className='p-4 sm:w-1/2'>
           <h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>My Skills</h2>
           <ul className='flex flex-row flex-wrap gap-3 sm:gap-6 '>
-            <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>React</div>
+            {/* <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>React</div>
             <div className='items-center text-center w-15 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Express js</div>
             <div className='items-center text-center w-15 h-8 mb-1 text-xs sm:w-24 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Node js</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Mongodb</div>
@@ -39,7 +39,72 @@ const About = () => {
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>CSS</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Javascript</div>
             <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Responsive design</div>
-            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Problem solving</div>
+            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Problem solving</div> */}
+<div className="flex flex-wrap gap-2 sm:gap-3">
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    React
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Express.js
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Node.js
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    MongoDB
+  </div>
+  <div className="flex items-center justify-center w-24 h-10 sm:w-28 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Tailwind CSS
+  </div>
+  <div className="flex items-center justify-center w-28 h-10 sm:w-32 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Restful APIs
+  </div>
+  <div className="flex items-center justify-center w-28 h-10 sm:w-32 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    JWT Authentication
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    SQL
+  </div>
+  <div className="flex items-center justify-center w-24 h-10 sm:w-28 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Data Structures
+  </div>
+  <div className="flex items-center justify-center w-16 h-10 sm:w-20 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    C
+  </div>
+  <div className="flex items-center justify-center w-16 h-10 sm:w-20 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    C++
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Java
+  </div>
+  <div className="flex items-center justify-center w-28 h-10 sm:w-32 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Python
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    C#
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Git
+  </div>
+  <div className="flex items-center justify-center w-24 h-10 sm:w-28 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    GitHub
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    HTML
+  </div>
+  <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    CSS
+  </div>
+  <div className="flex items-center justify-center w-24 h-10 sm:w-28 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    JavaScript
+  </div>
+  <div className="flex items-center justify-center w-28 h-10 sm:w-32 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Responsive Design
+  </div>
+  <div className="flex items-center justify-center w-28 h-10 sm:w-32 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+    Problem Solving
+  </div>
+</div>
 
           </ul>
         </div>
