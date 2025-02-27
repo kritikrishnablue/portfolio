@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const scrollToContact = () => {
-    document.getElementById("contact")?.scrollIntoView({ behavior: "instant" });
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div

@@ -20,9 +20,14 @@ const Navbar = () => {
      <h4 className='hidden sm:block cursor-pointer' onClick={() => document.getElementById("home")?.scrollIntoView({ behavior: "smooth" })}>Home</h4>
   <h4 className='hidden sm:block cursor-pointer' onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}>About</h4>
   <h4 className='hidden sm:block cursor-pointer' onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>Projects</h4>  
-      <FontAwesomeIcon className='block sm:hidden ' icon={faBars}></FontAwesomeIcon>
+      
     </div>          
-    <button onClick={openresume} className=' hidden sm:block px-10 py-2 bg-pink-700 border-spacing-1 rounded-full text-white hover:bg-pink-800 transition-colors duration-700'>Resume</button>
+    {/* <button onClick={openresume} className='block sm:px-10 sm:py-2 bg-pink-700 border-spacing-1 rounded-full text-white hover:bg-pink-800 transition-colors duration-700'>Resume</button> */}
+    <button 
+          onClick={openresume} 
+          className='px-4 py-2 sm:px-8 sm:py-2 text-sm sm:text-base bg-pink-700 rounded-lg text-white hover:bg-pink-800 transition duration-300 w-auto sm:w-auto'>
+          Resume
+        </button>
   </nav>
   <Navbar2/>
   </>
