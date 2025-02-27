@@ -21,25 +21,25 @@ const About = () => {
           <h2 className='text-xl sm:text-2xl font-bold mb-4 sm:mb-8'>My Skills</h2>
           <ul className='flex flex-row flex-wrap gap-3 sm:gap-6 '>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>React</div>
-            <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Express js</div>
+            <div className='items-center text-center w-15 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Express js</div>
             <div className='items-center text-center w-15 h-8 mb-1 text-xs sm:w-24 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Node js</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Mongodb</div>
             <div className='items-center text-center w-20 h-8 mb-1 text-xs sm:w-28 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Tailwind css</div>
             <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-40 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Restful APIs</div>
-            <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>JWT Authentication</div>
-            <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Data Structures</div>
+            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>JWT Authentication</div>
+            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Data Structures</div>
             <div className='items-center text-center w-8 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>C</div>
             <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>CPP</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>JAVA</div>
-            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-40 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Python</div>
+            <div className='items-center text-center w-20 h-8 mb-1 text-xs sm:w-40 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Python</div>
             <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>C#</div>
             <div className='items-center text-center w-10 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Git</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-24 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Github</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>HTML</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>CSS</div>
             <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Javascript</div>
-            <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Responsive design</div>
-            <div className='items-center text-center w-12 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Problem solving</div>
+            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Responsive design</div>
+            <div className='items-center text-center w-30 h-8 mb-1 text-xs sm:w-20 sm:h-10 p-2 border-2 rounded sm:rounded-lg sm:mb-2 bg-gray-200 text-gray-700 font-medium sm:text-base'>Problem solving</div>
 
           </ul>
         </div>
