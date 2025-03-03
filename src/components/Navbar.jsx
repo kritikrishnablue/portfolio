@@ -5,7 +5,7 @@ import Navbar2 from './navbar2'
 const Navbar = () => {
   const openresume = () => {
     window.open(
-      "https://drive.google.com/uc?export=download&id=1rtAiHkPze0o_jUxcXnacltMS0qCeZQqH",
+      "https://drive.google.com/file/d/1PaI1YMoKhoUdXduOBgZISsaEf-4-V5MX/view?usp=sharing",
       "_blank"
     );
   };
