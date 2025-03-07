@@ -58,6 +58,9 @@ const About = () => {
                 React
               </div>
               <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
+                Redux
+              </div>
+              <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
                 Express.js
               </div>
               <div className="flex items-center justify-center w-20 h-10 sm:w-24 sm:h-12 p-2 border-2 rounded-lg bg-gray-200 text-gray-700 font-medium text-xs sm:text-base">
