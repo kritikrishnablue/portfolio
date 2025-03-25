@@ -1,8 +1,27 @@
-# React + Vite
+Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio of Kriti Krishna website designed to showcase projects, skills, and experience. Built with modern web technologies, it provides an interactive and visually appealing way to highlight professional achievements.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🖥️ Responsive Design – Fully optimized for all devices.
+
+🎨 Modern UI – Sleek and intuitive user interface.
+
+🛠️ Projects Showcase – Display portfolio projects with details.
+
+📜 About Section – Highlight skills, experience, and background.
+
+📞 Contact Form – Users can reach out via a contact form.
+
+⚡ Fast & Lightweight – High performance with optimized assets.
+
+🛠️ Tech Stack
+
+Frontend: React.js , HTML, CSS, JavaScript
+
+Styling: Tailwind CSS
+
+Deployment: Netlify 
+
+live project: https://kritikrishnadev.netlify.app/
